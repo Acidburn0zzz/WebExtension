@@ -3,11 +3,11 @@
         "message" : "fr_fr"
     },
     "name" : {
-        "message" : "Qwant",
+        "message" : "Qwant Cause",
         "description" : "Nom de l'extension"
     },
     "description" :  {
-        "message" : "L'extension Qwant définit qwant.com comme votre moteur de recherche et page d'accueil par défaut.",
+        "message" : "L'extension Qwant Cause définit org.qwant.com comme votre moteur de recherche et page d'accueil par défaut.",
         "description" : "Description de l'extension"
     },
     "yes": {
