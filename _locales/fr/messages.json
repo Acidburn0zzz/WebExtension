@@ -3,11 +3,11 @@
         "message" : "fr_fr"
     },
     "name" : {
-        "message" : "Qwant pour Chrome",
+        "message" : "Qwant Causes pour Chrome",
         "description" : "Nom de l'extension"
     },
     "description" :  {
-        "message" : "L'extension Qwant définit qwant.com comme votre moteur de recherche et page d'accueil par défaut.",
+        "message" : "L'extension Qwant Causes définit org.qwant.com comme votre moteur de recherche et page d'accueil par défaut.",
         "description" : "Description de l'extension"
     },
     "yes": {

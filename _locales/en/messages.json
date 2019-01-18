@@ -3,10 +3,10 @@
         "message" : "en_us"
     },
     "name": {
-        "message": "Qwant for Chrome"
+        "message": "Qwant Causes for Chrome"
     },
     "description": {
-        "message": "Qwant Extension defines qwant.com as your default homepage and search engine."
+        "message": "Qwant Causes Extension defines org.qwant.com as your default homepage and search engine."
     },
     "yes" : {
         "message" : "Yes"

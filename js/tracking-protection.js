@@ -39,7 +39,7 @@ document.querySelectorAll(".tracking-protection__content__button")[0]
             changeText(true);
             changeGradient(true);
             changeOverlayInfos(true);
-            var setting = browser.privacy.websites.trackingProtectionMode.set({
+            var setting = chrome.privacy.websites.trackingProtectionMode.set({
                 value: "always"
             });
         } else {
@@ -48,7 +48,7 @@ document.querySelectorAll(".tracking-protection__content__button")[0]
             changeText(false);
             changeGradient(false);
             changeOverlayInfos(false);
-            var setting = browser.privacy.websites.trackingProtectionMode.set({
+            var setting = chrome.privacy.websites.trackingProtectionMode.set({
                 value: "never"
             });
         }
@@ -82,7 +82,7 @@ document.querySelectorAll(".tracking-protection__content__text")[0]
 document.querySelectorAll(".reload-msg--yes")[0]
     .addEventListener('click', function() {
         document.querySelectorAll('.reload-msg')[0].style.bottom = '-100vh';
-        browser.runtime.sendMessage({name: 'reload-tabs'});
+        chrome.runtime.sendMessage({name: 'reload-tabs'});
     });
 
 document.querySelectorAll(".reload-msg--no")[0]

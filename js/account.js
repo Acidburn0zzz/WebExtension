@@ -27,33 +27,33 @@ document.querySelectorAll(".button__action--bookmark")[0]
 document.querySelectorAll(".account__avatar__container")[0]
     .addEventListener("click", function () {
         closePopup();
-        browser.runtime.sendMessage({name: "close-popup"});
+        chrome.runtime.sendMessage({name: "close-popup"});
     });
 
 document.querySelectorAll(".account__username")[0]
     .addEventListener("click", function () {
         closePopup();
-        browser.runtime.sendMessage({name: "close-popup"});
+        chrome.runtime.sendMessage({name: "close-popup"});
     });
 
 document.querySelectorAll(".account__settings")[0]
     .addEventListener("click", function () {
         closePopup();
-        browser.runtime.sendMessage({name: "close-popup"});
+        chrome.runtime.sendMessage({name: "close-popup"});
     });
 
 document.querySelectorAll(".account__logout")[0]
     .addEventListener("click", function () {
         closePopup();
-        browser.runtime.sendMessage({name: "close-popup"});
+        chrome.runtime.sendMessage({name: "close-popup"});
     });
 
 boardsLink.addEventListener("mousedown", function() {
-        browser.runtime.sendMessage({name: "link_boards"});
+        chrome.runtime.sendMessage({name: "link_boards"});
     });
 
 bookmarksLink.addEventListener("mousedown", function() {
-        browser.runtime.sendMessage({name: "link_bookmarks"});
+        chrome.runtime.sendMessage({name: "link_bookmarks"});
     });
 
 chrome.storage.local.get(["userExtension"], object => {

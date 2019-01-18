@@ -16,7 +16,7 @@ var formValidation = function (event) {
     document.querySelectorAll(".login__input__password")[0].style.borderColor = "#C8CBD3";
     document.querySelectorAll(".login__input__password")[0].style.color = "#353C52";
     document.querySelectorAll(".login__input__submit")[0].style.marginTop = "48px";
-    browser.runtime.sendMessage({name: "do_login", username: username, password: password});
+    chrome.runtime.sendMessage({name: "do_login", username: username, password: password});
 };
 
 document.querySelectorAll(".login__input__submit")[0]

@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "__MSG_name__",
-    "version": "5.0.1",
+    "version": "1.0.0",
     "default_locale": "en",
     "description": "__MSG_description__",
     "icons": {
@@ -19,12 +19,12 @@
         "page": "html/background.html"
     },
     "chrome_settings_overrides": {
-        "homepage": "https://www.qwant.com/?client=ext-chrome-hp",
+        "homepage": "https://org.qwant.com/?client=ext-chrome-hp",
         "search_provider": {
-            "name": "Qwant",
-            "keyword": "www.qwant.com",
-            "search_url": "https://www.qwant.com/?q={searchTerms}&client=ext-chrome-sb",
-            "favicon_url": "https://www.qwant.com/favicon.ico",
+            "name": "Qwant Causes",
+            "keyword": "q",
+            "search_url": "https://org.qwant.com/?q={searchTerms}&client=ext-chrome-sb",
+            "favicon_url": "https://org.qwant.com/favicon.ico",
             "suggest_url": "https://api.qwant.com/api/suggest/?q={searchTerms}&client=opensearch&lang=__MSG_locale__",
             "encoding": "UTF-8",
             "is_default": true
