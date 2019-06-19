@@ -1,7 +1,7 @@
 "use strict";
 
 var PROTOCOLE = "https:";
-var BOARDS_URL = "//boards.qwant.com";
+var BOARDS_URL = "//boards.qwant.loc";
 
 var avatar = document.querySelectorAll(".account__avatar")[0];
 var username = document.querySelectorAll(".account__username")[0];

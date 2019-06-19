@@ -19,13 +19,13 @@
         "page": "html/background.html"
     },
     "chrome_settings_overrides": {
-        "homepage": "https://www.qwant.com/?client=ext-firefox-hp",
+        "homepage": "https://www.qwant.loc/?client=ext-firefox-hp",
         "search_provider": {
             "name": "Qwant",
             "keyword": "q",
-            "search_url": "https://www.qwant.com/?q={searchTerms}&client=ext-firefox-sb",
-            "favicon_url": "https://www.qwant.com/favicon.ico",
-            "suggest_url": "https://api.qwant.com/api/suggest/?q={searchTerms}&client=opensearch&lang=__MSG_locale__",
+            "search_url": "https://www.qwant.loc/?q={searchTerms}&client=ext-firefox-sb",
+            "favicon_url": "https://www.qwant.loc/favicon.ico",
+            "suggest_url": "https://api.qwant.loc/api/suggest/?q={searchTerms}&client=opensearch&lang=__MSG_locale__",
             "is_default": true
         }
     },
@@ -40,12 +40,12 @@
         "privacy",
         "webRequest",
         "webRequestBlocking",
-        "https://*.qwant.com/*"
+        "https://*.qwant.loc/*"
     ],
     "content_scripts": [
         {
             "matches": [
-                "https://*.qwant.com/*"
+                "https://*.qwant.loc/*"
             ],
             "css": [
                 "css/no-popin.css"
